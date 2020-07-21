@@ -55,6 +55,7 @@ int __cdecl main()
 		//InterlockedIncrement((unsigned long long*)a);
 		c++;
 	}
+	int test;
 	endTime = chrono::high_resolution_clock().now();
 
 	cout << (endTime - startTime).count() << endl;
